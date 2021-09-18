@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import "./Previewer.css"
 import marked from "marked";
 
-function Previewer({content}){
+function Previewer({inputValue}){
   useEffect(()=>{
-    let contentArr = content.split("");
+    let contentArr = inputValue.split("");
     let newContentArr = contentArr.map(item=>{
       if(item === "\n"){
         return "  \n";
@@ -12,10 +12,9 @@ function Previewer({content}){
       return item;
     })
     document.getElementById("preview").innerHTML = marked(newContentArr.join(""));
-  }, [content])
+  }, [inputValue])
   return (
     <div id="preview">
-      {/* {marked(content)} */}
     </div>
   )
 }
