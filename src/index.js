@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Editor from "./Editor";
 
 ReactDOM.render(
-    <App />,
-  document.getEle,mentById('root')
+    <>
+      <Editor />
+    </>
+    ,
+  document.getElementById('root')
 );
 
