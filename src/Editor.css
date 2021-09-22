@@ -1,0 +1,36 @@
+#editor {
+  background-color: rgb(177, 177, 212);
+  padding: 4%;
+  border:  3px solid black;
+  width : 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+  min-width: 300px;
+}
+#editor::-webkit-scrollbar{
+  background-color: rgb(177, 177, 212);
+}
+#editor::-webkit-scrollbar-thumb{
+  background: rgba(75, 75, 156, 0.7);
+}
+
+#editor::-webkit-resizer{
+  background-color: rgb(177, 177, 212);
+}
+
+#editor-container{
+  /* width : 500px; */
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+}
+
+#editor-title{
+  background : rgb(75, 75, 156);
+  color : whitesmoke;
+  font-family:Impact,'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 0px 5px 10px black, -2px 0px 5px black, 2px 0px 5px black;
+  z-index: 1;
+}
