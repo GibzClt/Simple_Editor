@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Previewer.css"
+import "./Preview.css"
 import marked from "marked";
 
 function Previewer({inputValue}){
@@ -14,7 +14,12 @@ function Previewer({inputValue}){
     document.getElementById("preview").innerHTML = marked(newContentArr.join(""));
   }, [inputValue])
   return (
-    <div id="preview">
+    <div id="preview-container">
+      <div id="preview-title">
+          <p>PREVIEW</p>
+        </div>
+      <div id="preview">
+      </div>
     </div>
   )
 }

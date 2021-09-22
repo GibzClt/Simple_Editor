@@ -1,9 +1,12 @@
 import React from "react";
+import "./Editor.css";
 
 function Editor({inputValue, changeInput}){
   return (
-    <>
-    <div>
+    <div id="editor-container">
+      <div id="editor-title">
+        <p>EDITOR</p>
+      </div>
       <textarea
         value={inputValue}
         cols={60}
@@ -12,7 +15,6 @@ function Editor({inputValue, changeInput}){
         id="editor"
       />
     </div>
-    </>
   )
 }
 
