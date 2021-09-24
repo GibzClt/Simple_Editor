@@ -45,3 +45,18 @@
   box-shadow: 0px 5px 10px black, -2px 0px 5px black, 2px 0px 5px black;
   z-index: 1;
 }
+
+code{
+  font-weight: 700;
+  mix-blend-mode: overlay;
+  font-size: 1rem;
+}
+
+pre{
+  padding : 0 2%;
+  mix-blend-mode: overlay;
+}
+
+img{
+  margin: 4% 0;
+}
