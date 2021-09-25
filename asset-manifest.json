@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Simple_Editor/static/css/main.bed72cec.chunk.css",
-    "main.js": "/Simple_Editor/static/js/main.89860c38.chunk.js",
-    "main.js.map": "/Simple_Editor/static/js/main.89860c38.chunk.js.map",
+    "main.css": "/Simple_Editor/static/css/main.9de0bf16.chunk.css",
+    "main.js": "/Simple_Editor/static/js/main.2066587b.chunk.js",
+    "main.js.map": "/Simple_Editor/static/js/main.2066587b.chunk.js.map",
     "runtime-main.js": "/Simple_Editor/static/js/runtime-main.f735801a.js",
     "runtime-main.js.map": "/Simple_Editor/static/js/runtime-main.f735801a.js.map",
-    "static/js/2.ac74477f.chunk.js": "/Simple_Editor/static/js/2.ac74477f.chunk.js",
-    "static/js/2.ac74477f.chunk.js.map": "/Simple_Editor/static/js/2.ac74477f.chunk.js.map",
+    "static/js/2.edc3c344.chunk.js": "/Simple_Editor/static/js/2.edc3c344.chunk.js",
+    "static/js/2.edc3c344.chunk.js.map": "/Simple_Editor/static/js/2.edc3c344.chunk.js.map",
     "index.html": "/Simple_Editor/index.html",
-    "static/css/main.bed72cec.chunk.css.map": "/Simple_Editor/static/css/main.bed72cec.chunk.css.map",
-    "static/js/2.ac74477f.chunk.js.LICENSE.txt": "/Simple_Editor/static/js/2.ac74477f.chunk.js.LICENSE.txt"
+    "static/css/main.9de0bf16.chunk.css.map": "/Simple_Editor/static/css/main.9de0bf16.chunk.css.map",
+    "static/js/2.edc3c344.chunk.js.LICENSE.txt": "/Simple_Editor/static/js/2.edc3c344.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f735801a.js",
-    "static/js/2.ac74477f.chunk.js",
-    "static/css/main.bed72cec.chunk.css",
-    "static/js/main.89860c38.chunk.js"
+    "static/js/2.edc3c344.chunk.js",
+    "static/css/main.9de0bf16.chunk.css",
+    "static/js/main.2066587b.chunk.js"
   ]
 }
